@@ -1,0 +1,133 @@
+body {
+  margin: 10px 200px;
+  border: 2px solid #D0A3A4;
+  font-family: "Times New Roman", serif;
+}
+
+.main {
+  display: flex;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  color: #A32E25;
+  font-style: italic;
+  text-shadow: 8px 8px #FDC1CC;   
+}
+
+nav {
+  background-color: #EA9696;
+  display: flex;    
+  align-items: center;        
+  justify-content: center;    
+  gap: 20px; 
+  color: white;
+  font-size: 14px;                  
+}
+
+.line p {
+  border-right: 1px solid blue;
+  margin: 10px 0px 5px;
+}
+
+nav img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin: 0px 10px;
+  padding: 0 10px;
+  border-right: 1px solid blue;
+}
+
+.water {
+  width: 210px;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.water p {
+  background: #EA9696;
+  color: #FFFFFF;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin: 0 0 5px;
+}
+.water img {
+  margin: 10px 0px;
+  object-fit: cover;
+  width: 210px;
+  height: 130px;
+  border-radius: 50%;
+  box-shadow: 8px 18px 10px 0px #FDC1CD;
+}
+
+.starter h1, .desserts h1, .information h1 {
+  background: #EA9696;
+  color: #A32E25;
+  width: 360px;
+  padding: 0px 15px;
+  letter-spacing: 15px;  
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.contents {
+  flex: 1;
+  margin: 0px 0px 0px 10px;
+  font-size: 14px;
+}
+.contents ins { color: red; font-weight: bold; }
+
+.events {
+  width: 330px;
+  height: fit-content;
+  flex-shrink: 0;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+.den {
+  padding: 0 30px 15px;
+}
+
+.events h2 {
+  margin: 0px;
+  font-size: 30px;
+}
+
+.events img {
+  width: 270px;
+  display: block;
+}
+.events p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.events h3 {
+  margin: 18px 0px 0px;
+  font-size: 21px;
+}
+
+footer {
+  background-color: #EA9696;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  color: white;
+  font-size: 24px;
+}
+
+.radio-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ooo {
+  display: flex;
+  align-items: center;   
+}
